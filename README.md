@@ -1,44 +1,44 @@
-🧾 lightning-record-view-formm (LWC)
+🧾 Account View Form - Lightning Web Component (LWC)
 📖 Description
 
-A reusable Salesforce Lightning Web Component for displaying Account records using the standard lightning-record-view-form.
+A reusable Salesforce Lightning Web Component that allows users to view Account record details using the standard lightning-record-view-form.
 
-This component provides a clean, structured, and maintainable approach to rendering key Account details without relying on full page layouts.
+The component focuses on displaying a controlled set of fields in a clean and structured layout without relying on full page layouts.
 
 🚀 Key Features
-Displays Account data using standard Salesforce UI components
-Uses lightning-record-view-form for efficient data handling
-Renders a controlled set of fields instead of full layout dependency
-Structured 2-column responsive layout using SLDS
-Lightweight and easy to extend
-🛠 Tech Stack
-Lightning Web Components (LWC)
-Salesforce Schema Imports
-Base Lightning Components
-Salesforce Lightning Design System (SLDS)
-⚙️ Implementation
-Built using lightning-record-view-form for optimized record display
-Fields are explicitly defined to maintain control over UI and performance
-Layout is structured using SLDS grid for consistent alignment
-Designed to be reusable across Account record pages
-▶️ Usage
-Deploy the component to your Salesforce org
+Uses lightning-record-view-form for read-only record display
+Displays selected Account fields (no full layout dependency)
+Structured 2-column layout for better readability
+Lightweight and optimized for quick data viewing
+Built using Salesforce Lightning Design System (SLDS)
+🛠 Installation
+Clone the repository
+Deploy using SFDX (VS Code or CLI)
 Open Lightning App Builder
-Add the component to an Account Record Page
-Save and activate the page
+Add the component to:
+Record Page (recommended)
+App Page
+Home Page
+Save and activate
+▶️ Usage
+Navigate to any Account record page
+Add the Account View Form component
+View Account details in a structured layout
 📢 Output
-Displays selected Account fields in a clean layout
-Read-only interface for quick data viewing
-Consistent UI across different records
-⚠️ Limitations
-Read-only component (no edit support)
-Static field configuration
-No custom validation or error handling
-🚀 Enhancements (Optional)
-Add edit capability using lightning-record-edit-form
-Introduce conditional field rendering
-Add user feedback with toast notifications
-Make fields configurable via component properties
+Displays selected Account fields
+Clean and consistent read-only UI
+Organized in a responsive 2-column format
+⚙️ Configuration
+
+This component uses field-based rendering instead of layout-based rendering.
+
+Current Setup
+Displays specific fields defined in the component
+Uses SLDS grid for layout structure
+Customization Options
+Add or remove fields as required
+Modify layout structure (e.g., single column / multi-column)
+Extend with additional UI elements if needed
 🧠 Summary
 
-This component demonstrates a practical approach to building lightweight, maintainable UI in Salesforce by leveraging standard Lightning components instead of custom-heavy implementations.
+This component demonstrates a practical approach to building lightweight, controlled record views in Salesforce by explicitly defining fields and using standard Lightning components for efficient rendering.
