@@ -1,4 +1,4 @@
-🧾 Account View Form - Lightning Web Component (LWC)
+🧾 lightning-record-view-form (LWC) - Lightning Web Component (LWC)
 📖 Description
 
 A reusable Salesforce Lightning Web Component that allows users to view Account record details using the standard lightning-record-view-form.
